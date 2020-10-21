@@ -39,8 +39,53 @@ section, summary, time, mark, audio, video {
 	margin-top: -10%;
 }
 
-#para2b {
+#headbob {
+	margin-top: -1.8%;
+}
+
+#para2b, #para6 {
 	padding-top: 2%;
+}
+
+#rickybaker {
+	height: 60%;
+}
+
+#eyes {
+	height: 60%;
+	margin-top: -12%;
+	margin-bottom: -2.5%;
+}
+
+#cuckoo, #braids, #mow {
+	height: 60%;
+}
+
+#mow {
+	margin-top: -20%;
+	margin-bottom: -20%;
+}
+
+#batter, #sam, #drill {
+	height: 70%;
+}
+
+#sam {
+	margin-top: -15%;
+	margin-bottom: -25%;
+}
+
+#kungfu {
+	width: 70%;
+	text-align: center;
+}
+
+#flash, #helmet {
+	height: 60%;
+}
+
+#dog {
+	width: 90%;
 }
 
 article, aside, details, figcaption, figure,
