@@ -25,7 +25,18 @@ gsap.registerPlugin(ScrollTrigger);
 		})
 	})
 
-	
+	// gsap.to("#fifth", {
+	// 	autoAlpha: 0,
+	// 	ease: 'none',
+	// 	scrollTrigger: {
+	// 		start: 'top top+=5%',
+	// 		end: 'bottom bottom',
+	// 		trigger: '#fifth',
+	// 		pin: true,
+	// 		scrub: true,
+	// 		markers: true
+	// 	}
+	// })
 
 	var	$window = $(window),
 		$body = $('body');
