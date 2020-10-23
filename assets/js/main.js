@@ -4,7 +4,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+gsap.registerPlugin(ScrollTrigger);
+
 (function($) {
+
+
+	gsap.utils.toArray('.big').forEach(section => {
+		gsap.from(section, {
+			opacity: 0,
+			duration: 1,
+			xPercent: 10,
+			ease: 'none',
+			scrollTrigger: {
+				trigger: section,
+				start: 'top-=200 top+=250',
+				end: 'bottom bottom',
+				toggleActions: 'play none none reverse',
+				markers: true
+			}
+		})
+	})
+
+	
 
 	var	$window = $(window),
 		$body = $('body');

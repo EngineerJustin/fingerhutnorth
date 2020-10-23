@@ -88,6 +88,19 @@ video {
 	max-width: 100%;
 }
 
+.big {
+	font-size: 1.5rem;
+	color: whitesmoke;
+}
+
+.vo {
+	color:whitesmoke;
+}
+
+.pop {
+	font-size: 1.12rem;
+}
+
 #dog {
 	width: 90%;
 }
@@ -203,6 +216,10 @@ input, select, textarea {
 
 			html {
 				font-size: 14pt;
+			}
+
+			.vo {
+				color: black;
 			}
 
 		}
