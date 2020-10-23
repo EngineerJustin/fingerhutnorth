@@ -20,7 +20,7 @@ gsap.registerPlugin(ScrollTrigger);
 				start: 'top-=200 top+=250',
 				end: 'bottom bottom',
 				toggleActions: 'play none none reverse',
-				markers: true
+				markers: false
 			}
 		})
 	})
