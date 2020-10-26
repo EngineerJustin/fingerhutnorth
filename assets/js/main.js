@@ -25,6 +25,46 @@ gsap.registerPlugin(ScrollTrigger);
 		})
 	})
 
+	gsap.from("#five-a", {
+		yPercent: -40,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '#five-a',
+			scrub: true,
+			end: '-=20%'
+		} 
+	})
+
+	gsap.from("#five-b", {
+		xPercent: 50,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '#five-b',
+			scrub: true,
+			end: '-=20%'
+		}
+	})
+
+	gsap.from("#five-c", {
+		xPercent: -40,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '#five-c',
+			scrub: true,
+			end: '-=30%'
+		} 
+	})
+
+	gsap.from("#five-d", {
+		yPercent: 40,
+		ease: 'none',
+		scrollTrigger: {
+			trigger: '#five-d',
+			scrub: true,
+			end: '-=35%'
+		} 
+	})
+
 	// gsap.to("#fifth", {
 	// 	autoAlpha: 0,
 	// 	ease: 'none',
