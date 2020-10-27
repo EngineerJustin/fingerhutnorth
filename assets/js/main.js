@@ -196,7 +196,8 @@ gsap.registerPlugin(ScrollTrigger);
 		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#braids',
-			scrub: true
+			scrub: true,
+			end: '-=25%'
 		} 
 	})
 
@@ -206,7 +207,8 @@ gsap.registerPlugin(ScrollTrigger);
 		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#mow',
-			scrub: true
+			scrub: true,
+			end: '-=25%'
 		} 
 	})
 
@@ -216,7 +218,41 @@ gsap.registerPlugin(ScrollTrigger);
 		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#fourteen',
-			scrub: true
+			scrub: true,
+			end: '-=25%'
+		} 
+	})
+
+	gsap.from("#helmet", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#helmet',
+			scrub: true,
+			end: '-=25%'
+		} 
+	})
+
+	gsap.from("#flash", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#flash',
+			scrub: true,
+			end: '-=25%'
+		} 
+	})
+
+	gsap.from("#sixteen", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#sixteen',
+			scrub: true,
+			end: '-=25%'
 		} 
 	})
 
