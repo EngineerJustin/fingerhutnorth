@@ -12,7 +12,7 @@ gsap.registerPlugin(ScrollTrigger);
 	gsap.utils.toArray('.big').forEach(section => {
 		gsap.from(section, {
 			opacity: 0,
-			duration: 1,
+			duration: 0.5,
 			xPercent: 10,
 			ease: 'none',
 			scrollTrigger: {
@@ -197,7 +197,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#braids',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
@@ -208,7 +208,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#mow',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
@@ -219,7 +219,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#fourteen',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
@@ -230,7 +230,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#helmet',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
@@ -241,7 +241,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#flash',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
@@ -252,7 +252,7 @@ gsap.registerPlugin(ScrollTrigger);
 		scrollTrigger: {
 			trigger: '#sixteen',
 			scrub: true,
-			end: '-=25%'
+			end: '-=35%'
 		} 
 	})
 
