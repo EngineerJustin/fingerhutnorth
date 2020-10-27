@@ -25,6 +25,13 @@ gsap.registerPlugin(ScrollTrigger);
 		})
 	})
 
+	// gsap.utils.toArray('.slip').forEach(section => {
+	// 	ScrollTrigger.create({
+	// 		trigger: section,
+	// 		pin: section
+	// 	})
+	// })
+
 	gsap.from("#five-a", {
 		yPercent: -40,
 		ease: 'none',
