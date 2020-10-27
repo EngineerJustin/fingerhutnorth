@@ -28,6 +28,7 @@ gsap.registerPlugin(ScrollTrigger);
 	gsap.from("#five-a", {
 		yPercent: -40,
 		ease: 'none',
+		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#five-a',
 			scrub: true,
@@ -36,32 +37,186 @@ gsap.registerPlugin(ScrollTrigger);
 	})
 
 	gsap.from("#five-b", {
-		xPercent: 50,
+		xPercent: 40,
+		opacity: 0.15,
 		ease: 'none',
 		scrollTrigger: {
 			trigger: '#five-b',
 			scrub: true,
-			end: '-=20%'
+			end: '-=45%'
 		}
 	})
 
 	gsap.from("#five-c", {
-		xPercent: -40,
+		xPercent: -30,
 		ease: 'none',
+		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#five-c',
 			scrub: true,
-			end: '-=30%'
+			end: '-=55%'
 		} 
 	})
 
 	gsap.from("#five-d", {
-		yPercent: 40,
+		yPercent: 30,
 		ease: 'none',
+		opacity: 0.15,
 		scrollTrigger: {
 			trigger: '#five-d',
 			scrub: true,
+			end: '-=65%'
+		} 
+	})
+
+	gsap.from("#three-b", {
+		xPercent: -30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#three-b',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#three-c", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#three-c',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#rickybaker", {
+		yPercent: -40,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#rickybaker',
+			scrub: true,
 			end: '-=35%'
+		} 
+	})
+	
+	gsap.from("#seven-b", {
+		xPercent: -30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#seven-b',
+			scrub: true,
+			end: '-=55%'
+		} 
+	})
+
+	gsap.from("#seven-c", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#seven-c',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#eyes", {
+		yPercent: -30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#eyes',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#nine-b", {
+		xPercent: -30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#nine-b',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#nine-d", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#nine-d',
+			scrub: true,
+			end: '-=45%'
+		} 
+	})
+
+	gsap.from("#cuckoo", {
+		yPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#cuckoo',
+			scrub: true,
+			end: '-=55%'
+		} 
+	})
+
+	gsap.from("#eleven-b", {
+		xPercent: -30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#eleven-b',
+			scrub: true,
+			end: '-=10%'
+		} 
+	})
+
+	gsap.from("#eleven-c", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#eleven-c',
+			scrub: true,
+			end: '-=10%'
+		} 
+	})
+
+	gsap.from("#braids", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#braids',
+			scrub: true
+		} 
+	})
+
+	gsap.from("#mow", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#mow',
+			scrub: true
+		} 
+	})
+
+	gsap.from("#fourteen", {
+		xPercent: 30,
+		ease: 'none',
+		opacity: 0.15,
+		scrollTrigger: {
+			trigger: '#fourteen',
+			scrub: true
 		} 
 	})
 
