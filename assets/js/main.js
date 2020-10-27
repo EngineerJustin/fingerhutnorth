@@ -25,11 +25,11 @@ gsap.registerPlugin(ScrollTrigger);
 		})
 	})
 
-	// gsap.utils.toArray('.slip').forEach(section => {
-	// 	ScrollTrigger.create({
-	// 		trigger: section,
-	// 		pin: section
-	// 	})
+	// ScrollTrigger.create({
+	// 	trigger: '#second',
+	// 	start: 'top top',
+	// 	end: 'bottom 150px',
+	// 	pin: '#second'
 	// })
 
 	gsap.from("#five-a", {
